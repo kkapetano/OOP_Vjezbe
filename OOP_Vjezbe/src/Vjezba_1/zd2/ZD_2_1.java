@@ -1,4 +1,4 @@
-package Vjezba_1.zd2;
+package OOP_Vjezbe.src.Vjezba_1.zd2;
 
 import java.util.Scanner;
 
