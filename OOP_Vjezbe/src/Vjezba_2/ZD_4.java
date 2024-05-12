@@ -6,13 +6,11 @@ public class ZD_4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Kreiranje niza
         System.out.println("Unesite dimenzije 2D niza (redovi i kolone):");
         int redovi = scanner.nextInt();
         int kolone = scanner.nextInt();
         double[][] niz = new double[redovi][kolone];
 
-        // Unos elemenata niza
         System.out.println("Unesite elemente 2D niza:");
         for (int i = 0; i < redovi; i++) {
             for (int j = 0; j < kolone; j++) {
@@ -20,7 +18,6 @@ public class ZD_4 {
             }
         }
 
-        // Ispis niza koristeći deepToString metodu
         System.out.println("Elementi 2D niza:");
         System.out.println(Arrays.deepToString(niz));
 
