@@ -1,4 +1,4 @@
-package Vjezba_5;
+package Vjezba_5.ZD_2;
 
 public interface CommonActions {
     void walk(String cmnd, int steps);

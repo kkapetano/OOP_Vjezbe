@@ -1,4 +1,4 @@
-package Vjezba_5;
+package Vjezba_5.ZD_1;
 
 
 public class PDS_Student extends Student {

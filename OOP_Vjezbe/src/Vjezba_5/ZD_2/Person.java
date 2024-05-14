@@ -1,15 +1,16 @@
-package Vjezba_5;
+package Vjezba_5.ZD_2;
 
 import java.util.UUID;
 
 public class Person implements CommonActions {
     private String name;
-    private int age;
+    private int id;
+    private int cntID;
 
-
-    public Person(String name, int age) {
+    public Person(String name, int id) {
         this.name = name;
-        this.age = age;
+        this.id = id;
+
     }
     @Override
     public void walk(String cmnd, int steps) {
@@ -36,6 +37,6 @@ public class Person implements CommonActions {
     }
 
     public void infoPerson(){
-        System.out.println("Person: " + this.name + " - age: " + this.age);
+        System.out.println("Person: " + this.name + " - id: " + this.id);
     }
 }

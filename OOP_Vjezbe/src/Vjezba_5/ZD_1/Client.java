@@ -1,4 +1,5 @@
-package Vjezba_5;
+package Vjezba_5.ZD_1;
+
 import java.text.ParseException;
 import java.util.Scanner;
 
