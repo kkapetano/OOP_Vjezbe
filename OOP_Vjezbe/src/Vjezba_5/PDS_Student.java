@@ -20,8 +20,8 @@ public class PDS_Student extends Student {
     }
 
 
-    protected  void completedStudy(int i) {
-        if (completeStudy(i)) {
+    protected  void completedStudy() {
+        if (completeStudy(3)) {
             System.out.println("Student " + name + " has completed the study.");
         } else {
             System.out.println("Student " + name + " has not completed the study.");

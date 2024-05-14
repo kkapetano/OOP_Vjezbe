@@ -12,6 +12,14 @@ public class DS_Student extends Student {
         System.out.println("Student: " + name + ", diplomski studij");
     }
 
+    public void completedStudy(int i) {
+        if (completeStudy(i)) {
+            System.out.println("Student " + name + " has completed the study.");
+        } else {
+            System.out.println("Student " + name + " has not completed the study.");
+        }
+    }
+
     @Override
     public boolean completeStudy(int value) {
         if (value < 2) {

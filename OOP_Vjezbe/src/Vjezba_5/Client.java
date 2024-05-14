@@ -11,9 +11,18 @@ public class Client {
         DS_Student student2 = new DS_Student("Name-2-DS",2);
         student1.setScanner(sc);
         student1.setEnrollmentDate();
-        student1.completedStudy(3);
+        student1.completedStudy();
         student1.infoStudent();
-        // Realizirajte i kod za DS_Studenta
+        // Realizirajte i kod za DS_Studentaž
+        student2.setScanner(sc);
+        student2.setEnrollmentDate();
+        student2.completedStudy(2);
+        student2.infoStudent();
 
+
+    }
 }
-}
+
+
+
+
