@@ -22,7 +22,9 @@ public abstract class Student {
     protected void setEnrollmentDate() throws ParseException {
         System.out.println("Please enter enrollment data in the format dd-MM-yyy");
         String date = sc.nextLine();
-        this.enrolmentDate = df.parse(date);
+        enrolmentDate = df.parse(date);
+
+
     }
 
     public void setScanner(Scanner sc){

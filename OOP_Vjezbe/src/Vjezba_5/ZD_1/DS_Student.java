@@ -2,8 +2,10 @@ package Vjezba_5.ZD_1;
 
 public class DS_Student extends Student {
 
+    private static int idStudent = 100;
 
-    public DS_Student(String name, int idStudent) {
+
+    public DS_Student(String name) {
         super(name, idStudent);
     }
 

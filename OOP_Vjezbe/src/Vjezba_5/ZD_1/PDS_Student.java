@@ -3,8 +3,12 @@ package Vjezba_5.ZD_1;
 
 public class PDS_Student extends Student {
 
-    public PDS_Student(String name,int idStudent) {
+private static int idStudent =101;
+
+
+    public PDS_Student(String name) {
         super(name,idStudent);
+
     }
 
     protected void infoStud() {
@@ -20,7 +24,7 @@ public class PDS_Student extends Student {
     }
 
 
-    protected  void completedStudy() {
+    protected void completedStudy(int i) {
         if (completeStudy(3)) {
             System.out.println("Student " + name + " has completed the study.");
         } else {
