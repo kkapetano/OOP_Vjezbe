@@ -1,0 +1,7 @@
+avion
+helicopter
+auto
+motor
+motorcycle
+Ovo je novi tekst koji želimo zapisati u datoteku.
+Ovo je novi tekst koji želimo zapisati u datoteku.

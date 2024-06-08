@@ -1,0 +1,5 @@
+auto
+svemirski brod
+avion
+helikopter
+jedrilica
